@@ -3,6 +3,8 @@ package main
 import (
 	"errors"
 	"os"
+
+	SteamAPI "github.com/Toakley683/GoLang-SteamAPI"
 )
 
 const FileName = "./apikey"
@@ -18,7 +20,7 @@ type APIKey struct {
 	Key string
 }
 
-func GetAPIKey() (*APIKey, error) {
+func GetAPIKey() (*SteamAPI.APIKey, error) {
 
 	_, err := os.Stat(FileName)
 
@@ -37,7 +39,7 @@ func GetAPIKey() (*APIKey, error) {
 		return nil, errors.New(INVALID_KEY)
 	}
 
-	return &APIKey{
+	return &SteamAPI.APIKey{
 		Key: Key,
 	}, nil
 
