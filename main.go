@@ -343,7 +343,6 @@ func main() {
 		}
 
 		onNewSteamID := func(value string) {
-			fmt.Println(value)
 			setSteamID64(value)
 		}
 
