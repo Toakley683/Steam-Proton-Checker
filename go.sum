@@ -1,2 +1,6 @@
 github.com/Toakley683/GoLang-SteamAPI v1.0.1 h1:zeBAEK4cA0K1hZRHymJdGMLIgLsAVGL9tGCxFa22sWg=
 github.com/Toakley683/GoLang-SteamAPI v1.0.1/go.mod h1:hFFdnxzXTayoGr1WYaVcDHGQonmtyesYLMp7YMR0wao=
+github.com/pwiecz/go-fltk v0.0.0-20240511142305-990b442ae1ed h1:7/j/4x3KAwuJB9sWdfhi+1UFbv42TyJ4LyUI/GHS+p8=
+github.com/pwiecz/go-fltk v0.0.0-20240511142305-990b442ae1ed/go.mod h1:uMK5daOr9p+ba2BPs5QadbfaqqrHR5TGj13yWGsAsmw=
+github.com/roblillack/spot v0.3.2 h1:yqxCnkMk57Dc+o33dxh1c8ZXGx3kyMEV7GYkAP5z5OU=
+github.com/roblillack/spot v0.3.2/go.mod h1:nTQK9qWQuL977BcNBN5deI/AouFbCuBv/o4PyyXlP9I=
