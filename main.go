@@ -9,6 +9,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/ncruces/zenity"
 	"github.com/roblillack/spot"
 	"github.com/roblillack/spot/ui"
 
@@ -21,6 +22,7 @@ func main() {
 
 	APIKey, err := GetAPIKey()
 	if err != nil {
+		zenity.Error("Could not get API Key", zenity.Title("Proton Checker"))
 		log.Panicln("Could not get API Key")
 	}
 
@@ -28,6 +30,7 @@ func main() {
 
 	Apps, err := Context.GetAppList()
 	if err != nil {
+		zenity.Error("Could not get App List", zenity.Title("Proton Checker"))
 		log.Panicln("Could not get App List")
 	}
 
