@@ -5,6 +5,12 @@ Now ProtonDB already has something like this but I decided to make my own.<br>
 <br>
 Mine also allows you to see OTHER people's steam libraries ratings without problem
 <br>
+### Building
+<br>
+
+You can build this file yourself, it should support Linux, MacOS and etc, just needs to be built. `REQUIRES CGO`
+<br>
+
 ### Installation
 <br>
 
